@@ -3,22 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-       
-          @media screen and (max-width: 768px) {
-            div span:last-of-type {
-              display: block;
-              line-height: 40px;
-              
-            }
-            div span:nth-of-type(2) {
-              display: block;
-              line-height: 40px;
-             
-            }
-          }
-           
-      
-      
 
 html, body {
   height: 100vh;
@@ -53,6 +37,15 @@ body {
 .content.isOpen {
   transform: translate3d(220px, 0, 0);
   background-image: url("http://kaba35.com/wp-content/uploads/2015/11/Savin-NY-Website-Background-Web1.jpg");
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button:before {
+  content: '\f0c9';
+  font: 42px fontawesome;
 }
 
 /* Demo Navigation */
@@ -141,13 +134,7 @@ h2 {
 
 h3  {
   font-family: 'Spectral SC', serif;
-  margin: 75px 0 15px;
-  font-size: 24px;
+  margin: 25px 0 15px;
+  font-size: 25px;
   font-weight: 400;
 }
-.article {
-  display: block;
-  line-height: 25px;
-}
-
-      
